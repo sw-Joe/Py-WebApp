@@ -1,0 +1,20 @@
+# 필요한 화면들
+
+## 질문 답변 사이트인 파이보는 다음과 같은 화면들이 필요하다.
+
+- 질문 목록 - 질문의 목록을 표시하는 화면
+- 질문 상세 - 질문의 상세 내용을 확인하고 답변을 작성하는 화면
+- 질문 작성 - 질문을 작성하는 화면
+- 질문 수정 - 질문을 수정하는 화면
+- 답변 수정 - 답변을 수정하는 화면
+- 회원 가입 - 회원 가입을 위한 화면
+- 로그인 - 로그인을 위한 화면
+
+URL명 	                        파일명 	                  화면명
+/ 	                            Home.svelte 	        질문 목록
+/detail/:question_id 	        Detail.svelte 	        질문 상세
+/question-create 	            QuestionCreate.svelte 	질문 작성
+/question-modify/:question_id 	QuestionModify.svelte 	질문 수정
+/user-login 	                UserLogin.svelte 	    로그인
+/user-create 	                UserCreate.svelte 	    회원가입
+/answer-modify/:answer_id 	    AnswerModify.svelte 	답변 수정
